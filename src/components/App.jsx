@@ -31,7 +31,7 @@ function App() {
       if(response.ok){
         return response
       }
-      throw Error("Nie udao się")
+      throw Error("Nie udao sie, sprobuj wpisac co innego")
     })
     .then(response => response.json())
     .then(data => console.log(data))
